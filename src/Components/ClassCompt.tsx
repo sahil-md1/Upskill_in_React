@@ -15,3 +15,17 @@
 // }
 
 // export default ClassCompt;
+
+
+import React from 'react'
+
+const ClassCompt = () => {
+  return (
+    <div>
+      cewdwede
+    </div>
+  )
+}
+
+export default ClassCompt
+
