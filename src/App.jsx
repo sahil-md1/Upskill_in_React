@@ -11,7 +11,7 @@ function App() {
       React
       <User />
       <State/>
-      {/* <ClassCompt/> */}
+      <ClassCompt/>
     </div>
   );
 }
