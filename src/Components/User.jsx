@@ -14,7 +14,7 @@ const User = () => {
   return (
     <div className="">
       <h1>{data}</h1>
-      <div>
+      <div className="mt-3">
         <button onClick={() => apple()}> Click me</button>
       </div>
     </div>

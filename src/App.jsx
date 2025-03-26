@@ -5,13 +5,17 @@ import "./App.css";
 import User from "./Components/User";
 import State from "./Components/state";
 import ClassCompt from "./Components/ClassCompt";
+import Input from "./Components/Input";
+
+
 function App() {
   return (
-    <div className="p-4 bg-blue-500">
+    <div className="p-4 bg-neutral-500">
       React
       <User />
-      <State/>
-      <ClassCompt/>
+      {/* <State/> */}
+      {/* <ClassCompt name = {'sahil'} age= {43} email ={"getComputedStyle"}/> */}
+      <Input/>
     </div>
   );
 }
