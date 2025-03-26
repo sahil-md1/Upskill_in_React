@@ -19,10 +19,14 @@
 
 import React from 'react'
 
-const ClassCompt = () => {
+const ClassCompt = ( props) => {
+console.log(props, 'sahil');
+
   return (
     <div>
-      cewdwede
+      <h2> hi {props.name}</h2>
+      <h2> hi {props.age}</h2>
+      <h2> hi {props.email}</h2>
     </div>
   )
 }
