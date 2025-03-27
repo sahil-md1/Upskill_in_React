@@ -7,18 +7,25 @@ import State from "./Components/state";
 import ClassCompt from "./Components/ClassCompt";
 import Input from "./Components/Input";
 import Toggle from "./Components/toggle";
-import RegForm from "./Components/regForm";
+import RegForm from "./Components/RegForm";
+import HooksLearn from "./Components/HooksLearn";
+import StateHooks from "./Components/StateHooks";
+import StateHooksProps from './Components/StateHooksProps'
+
 
 function App() {
   return (
     <div className="p-4 ">
-      React
+      {/* React */}
       <User />
       {/* <State/> */}
       {/* <ClassCompt name = {'sahil'} age= {43} email ={"getComputedStyle"}/> */}
       {/* <Input/> */}
       {/* <Toggle/> */}
-      <RegForm />
+      {/* <RegForm /> */}
+      {/* <HooksLearn/> */}
+      {/* <StateHooks/> */}
+      <StateHooksProps name={'Sahil'} age={22}/>
     </div>
   );
 }
