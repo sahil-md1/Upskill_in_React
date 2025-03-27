@@ -12,6 +12,7 @@ import HooksLearn from "./Components/HooksLearn";
 import StateHooks from "./Components/StateHooks";
 import StateHooksProps from './Components/StateHooksProps'
 import StylesReact from './Components/StylesReact'
+import MapFun from './Components/MapFun'
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <HooksLearn/> */}
       {/* <StateHooks/> */}
       {/* <StateHooksProps name={'Sahil'} age={22}/> */}
-      <StylesReact/>
+      {/* <StylesReact/> */}
+      <MapFun/>
     </div>
   );
 }
