@@ -11,6 +11,7 @@ import RegForm from "./Components/RegForm";
 import HooksLearn from "./Components/HooksLearn";
 import StateHooks from "./Components/StateHooks";
 import StateHooksProps from './Components/StateHooksProps'
+import StylesReact from './Components/StylesReact'
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       {/* <RegForm /> */}
       {/* <HooksLearn/> */}
       {/* <StateHooks/> */}
-      <StateHooksProps name={'Sahil'} age={22}/>
+      {/* <StateHooksProps name={'Sahil'} age={22}/> */}
+      <StylesReact/>
     </div>
   );
 }

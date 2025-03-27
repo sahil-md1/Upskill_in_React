@@ -2,7 +2,6 @@ import React from 'react'
 
 const StateHooksProps = ({name, age}) => {
 
-    
   return (
     <div>
       <h1>{name}</h1>
