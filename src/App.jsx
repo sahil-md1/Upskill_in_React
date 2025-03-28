@@ -13,6 +13,7 @@ import StateHooks from "./Components/StateHooks";
 import StateHooksProps from './Components/StateHooksProps'
 import StylesReact from './Components/StylesReact'
 import MapFun from './Components/MapFun'
+import Statelifting from './Components/StateLifting'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       {/* <StateHooksProps name={'Sahil'} age={22}/> */}
       {/* <StylesReact/> */}
       {/* <MapFun/> */}
+      <Statelifting/>
     </div>
   );
 }
