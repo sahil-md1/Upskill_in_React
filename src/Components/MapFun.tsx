@@ -13,7 +13,7 @@ const MapFun = () => {
   return (
     <div>
       <h1>
-        {name.map((key, items) => {
+        {name.map((items, key) => {
             console.log(items, key , 'map');
             
             return(

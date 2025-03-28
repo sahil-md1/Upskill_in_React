@@ -29,7 +29,7 @@ function App() {
       {/* <StateHooks/> */}
       {/* <StateHooksProps name={'Sahil'} age={22}/> */}
       {/* <StylesReact/> */}
-      <MapFun/>
+      {/* <MapFun/> */}
     </div>
   );
 }
